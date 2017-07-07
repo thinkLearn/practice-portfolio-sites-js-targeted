@@ -1,0 +1,64 @@
+body, html {
+	height: 100%;
+	height: 100vh;
+}
+body {
+	background: #34333D;
+} 
+input {
+	font-size: 44px;
+	text-align: right;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}  
+.container {
+	width: 100%;
+	height: 100%;
+	height: 100vh;
+	padding-top: 1px;
+
+	&__inner {
+		width: 400px;
+		margin: 100px auto;
+		background: #85858B;
+		box-shadow: inset 0 0 10px #000;
+	}
+}
+
+.calcScreen {
+	width: 100%;
+	height: 90px;
+}
+
+.table {
+	display: table;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 14px;
+
+
+	&__row {
+		display: table-row;
+	}
+
+	&__cell {
+		width: 70px;
+		height: 70px;
+		display: table-cell;
+		vertical-align: middle;
+    	text-align: center;
+		background: #fff;
+		cursor: pointer;
+		user-select: none;
+
+		&_empty {
+			background-color: #000;
+		}
+
+		&_ac {
+			background-color: #ffa200;
+		}
+		&_eq {
+			background: #13d7d0;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+//
+// Personal Portfolio
+// Main SCSS file
+//
+
+@import 'normalize';
+
+// load config
+@import 'config/config';
+
+// load mixins
+@import 'mixins/mixins_general';
+
+// load base
+@import 'base/reset';
+@import 'base/helper_classes';
+@import 'base/typography';
+
+// load structure
+@import 'pages/main-page';
